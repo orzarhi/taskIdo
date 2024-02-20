@@ -1,0 +1,18 @@
+.subtitle {
+	font-size: 2rem;
+}
+
+.description {
+	width: 50%;
+	text-align: center;
+	color: rgba(155, 155, 155, 0.783);
+}
+
+@media (max-width: 768px) {
+	.subtitle {
+		font-size: x-large;
+	}
+	.description {
+		width: 95%;
+	}
+}

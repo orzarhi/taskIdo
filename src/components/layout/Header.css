@@ -1,0 +1,35 @@
+.nav {
+	padding-top: 3px;
+	padding-right: 5px;
+	font-size: large;
+}
+
+.links-wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	max-width: 100%;
+	margin-left: 5px;
+	gap: 7rem;
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.link:hover {
+	color: #b1b0b0;
+}
+
+@media (max-width: 768px) {
+	.nav {
+		padding-top: 3px;
+		padding-right: 5px;
+		font-size: medium;
+	}
+	.links-wrapper {
+		gap: 4rem;
+	}
+}

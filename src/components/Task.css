@@ -1,0 +1,22 @@
+.link-back {
+	padding: 10px;
+	color: #a3a3a3;
+	text-decoration: underline;
+	font-size: 1em;
+}
+
+.link-back:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.todo-title_back {
+		text-align: center;
+		width: 50%;
+		font-size: large;
+	}
+	.link-back {
+		padding: 5px;
+		font-size: medium;
+	}
+}
